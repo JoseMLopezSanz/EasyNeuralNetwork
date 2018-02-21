@@ -7,7 +7,7 @@ With this simple implementation using Keras (A very versatile and easy to use li
 
 I hope you find it useful and it helps understand a bit more how they work and how we can use their parameters to find very good classifiers by using deep learning but being careful because overfitting could be a problem.
 
-# Requiremnts 
+## Requiremnts 
 
 Keras, matplotlib, sklearn, pandas, argparse
 
