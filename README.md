@@ -26,7 +26,10 @@ Example 1
 ```
 python Neural_Network.py --d moons -l 20 20 20 -e 10 -c 2 -lr 0.001
 ```
-We create a neural network with input layer for 2 features, 3 hidden layers with 20 perceptrons each and an output layer for 3 classes, we train the model for 10 epochs with a learning rate of 0.001 Result of example 1
+We create a neural network with input layer for 2 features, 3 hidden layers with 20 perceptrons each and an output layer for 3 classes, we train the model for 10 epochs with a learning rate of 0.001 
+![alt text](https://raw.githubusercontent.com/JoseMLopezSanz/EasyNeuralNetwork/master/example_1.png)
+
+Result of example 1
 
 Example 2
 ```
