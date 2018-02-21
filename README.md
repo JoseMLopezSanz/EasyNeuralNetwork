@@ -15,11 +15,11 @@ Keras, matplotlib, sklearn, pandas, argparse
 
 Arguments:
 
---dataset or -d: type of dataset (moons or blobs)
---classes or -c: number of classes to classify (#number of perceptrons in the output layer)
---layers or -l: number of hidden layers and number of perceptrons per hidden layer.
---epochs or -e: number of epochs to train the model
---learning_rate or -lr: learning rate used to train the model with stochastic gradient descend (SGD)
+* --dataset or -d: type of dataset (moons or blobs)
+* --classes or -c: number of classes to classify (#number of perceptrons in the output layer)
+* --layers or -l: number of hidden layers and number of perceptrons per hidden layer.
+* --epochs or -e: number of epochs to train the model
+* --learning_rate or -lr: learning rate used to train the model with stochastic gradient descend (SGD)
 Some examples
 
 Example 1
@@ -43,7 +43,7 @@ In this example we use a different dataset with 5 classes. Example 3
 
 ## Authors
 
-* **Jose M Lopez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Jose M Lopez** - *Initial work* - [Me](https://github.com/JoseMLopezSanz)
 
 ## License
 
