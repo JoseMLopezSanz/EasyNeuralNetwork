@@ -1,7 +1,7 @@
 # EasyNeuralNetwork
 Visual implementation of the decision boundaries of a neural network
 
-# Description
+## Description
 
 With this simple implementation using Keras (A very versatile and easy to use library for python to implement neural networks) you can play with the number of classes and parameters of the neural network in a 2 Dimensional space to see the decision boundary of the net.
 
@@ -11,7 +11,7 @@ I hope you find it useful and it helps understand a bit more how they work and h
 
 Keras, matplotlib, sklearn, pandas, argparse
 
-# Examples 
+## Examples 
 
 Arguments:
 
@@ -23,13 +23,28 @@ Arguments:
 Some examples
 
 Example 1
- python Neural_Network.py --d moons -l 20 20 20 -e 10 -c 2 -lr 0.001
+```
+python Neural_Network.py --d moons -l 20 20 20 -e 10 -c 2 -lr 0.001
+```
 We create a neural network with input layer for 2 features, 3 hidden layers with 20 perceptrons each and an output layer for 3 classes, we train the model for 10 epochs with a learning rate of 0.001 Result of example 1
 
 Example 2
+```
 python Neural_Network.py --dataset  moons -l 20 20 20 -e 500 -c 2 -lr 0.001
+```
 Same model but trained for 500 epochs Result for example 2
 
 Example 3
+```
 python Neural_Network.py --dataset blobs  -l 20 20 20  -e 500 -c 5 -lr 0.001
+```
 In this example we use a different dataset with 5 classes. Example 3
+
+
+## Authors
+
+* **Jose M Lopez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
