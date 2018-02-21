@@ -29,19 +29,22 @@ python Neural_Network.py --d moons -l 20 20 20 -e 10 -c 2 -lr 0.001
 We create a neural network with input layer for 2 features, 3 hidden layers with 20 perceptrons each and an output layer for 3 classes, we train the model for 10 epochs with a learning rate of 0.001 
 ![alt text](https://raw.githubusercontent.com/JoseMLopezSanz/EasyNeuralNetwork/master/Figure_1.png)
 
-Result of example 1
 
 Example 2
 ```
 python Neural_Network.py --dataset  moons -l 20 20 20 -e 500 -c 2 -lr 0.001
 ```
-Same model but trained for 500 epochs Result for example 2
+Same model but trained for 500 epochs 
+![alt text](https://raw.githubusercontent.com/JoseMLopezSanz/EasyNeuralNetwork/master/Figure_2.png)
+
 
 Example 3
 ```
 python Neural_Network.py --dataset blobs  -l 20 20 20  -e 500 -c 5 -lr 0.001
 ```
-In this example we use a different dataset with 5 classes. Example 3
+In this example we use a different dataset with 5 classes. 
+![alt text](https://raw.githubusercontent.com/JoseMLopezSanz/EasyNeuralNetwork/master/Figure_3.png)
+
 
 
 ## Authors
